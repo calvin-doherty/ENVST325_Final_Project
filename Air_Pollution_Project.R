@@ -10,16 +10,16 @@ library(olsrr)
 
 # Load data
 
-Oregon_PM2.5_2023 <- read.csv("/Users/calvinpdoherty/Desktop/Env Data Final Project/Oregon PM2.5/Oregon_PM2.5_2023.csv")
-Oregon_PM2.5_2022 <- read.csv("/Users/calvinpdoherty/Desktop/Env Data Final Project/Oregon PM2.5/Oregon_PM2.5_2022.csv")
-Oregon_PM2.5_2021 <- read.csv("/Users/calvinpdoherty/Desktop/Env Data Final Project/Oregon PM2.5/Oregon_PM2.5_2021.csv")
-Oregon_PM2.5_2020 <- read.csv("/Users/calvinpdoherty/Desktop/Env Data Final Project/Oregon PM2.5/Oregon_PM2.5_2020.csv")
-Oregon_PM2.5_2019 <- read.csv("/Users/calvinpdoherty/Desktop/Env Data Final Project/Oregon PM2.5/Oregon_PM2.5_2019.csv")
-Oregon_PM2.5_2018 <- read.csv("/Users/calvinpdoherty/Desktop/Env Data Final Project/Oregon PM2.5/Oregon_PM2.5_2018.csv")
+Oregon_PM2.5_2023 <- read.csv("https://raw.githubusercontent.com/calvin-doherty/ENVST325_Final_Project/main/Oregon_PM2.5_2023.csv")
+Oregon_PM2.5_2022 <- read.csv("https://raw.githubusercontent.com/calvin-doherty/ENVST325_Final_Project/main/Oregon_PM2.5_2022.csv")
+Oregon_PM2.5_2021 <- read.csv("https://raw.githubusercontent.com/calvin-doherty/ENVST325_Final_Project/main/Oregon_PM2.5_2021.csv")
+Oregon_PM2.5_2020 <- read.csv("https://raw.githubusercontent.com/calvin-doherty/ENVST325_Final_Project/main/Oregon_PM2.5_2020.csv")
+Oregon_PM2.5_2019 <- read.csv("https://raw.githubusercontent.com/calvin-doherty/ENVST325_Final_Project/main/Oregon_PM2.5_2019.csv")
+Oregon_PM2.5_2018 <- read.csv("https://raw.githubusercontent.com/calvin-doherty/ENVST325_Final_Project/main/Oregon_PM2.5_2018.csv")
 
-Bend_Weather <- read_excel("/Users/calvinpdoherty/Desktop/Env Data Final Project/Bend Weather Data.xlsx")
+Bend_Weather <- read_excel("https://raw.githubusercontent.com/calvin-doherty/ENVST325_Final_Project/main/Bend Weather Data.xlsx")
 
-Oregon_Fires <- read_csv("/Users/calvinpdoherty/Desktop/Env Data Final Project/Fire_18_23.csv")
+Oregon_Fires <- read_csv("https://raw.githubusercontent.com/calvin-doherty/ENVST325_Final_Project/main/Fire_18_23.csv")
 
 ### Clean air quality data
 
